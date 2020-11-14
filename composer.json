@@ -1,6 +1,6 @@
 {
-  "name": "stevenyangecho/laravel-u-editor",
-  "description": "UEditor for laravel5. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
+  "name": "yk86586844/laravel-u-editor-test",
+  "description": "UEditor for laravel5 to laravel8-test. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
   "keywords": [
     "laravel",
     "ueditor",
