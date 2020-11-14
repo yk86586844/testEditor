@@ -1,4 +1,4 @@
-Laravel 5  UEditor
+Laravel  UEditor
 =============
 
 [UEditor](http://ueditor.baidu.com) 是由百度web前端研发部开发所见即所得富文本web编辑器
