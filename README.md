@@ -62,7 +62,7 @@ Once Laravel Exceptions is installed, you need to register the service provider.
 
 If Lumen
 
-* `$app->register(yk86586844\testEditor\LumenUEditorServiceProvider);`
+* `$app->register(\Stevenyangecho\UEditor\UEditorServiceProvider);`
 
 then run 
 
