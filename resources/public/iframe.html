@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' class='view' >
+<head>
+    <style type='text/css'>
+        .view{padding:0;word-wrap:break-word;cursor:text;height:90%;}
+        body{margin:8px;font-family:sans-serif;font-size:16px;}
+        p{margin:5px 0;}
+    </style>
+    <!-- 如果你是复制我的这段代码，在此之前一定要先看下自己编辑器下 iframe.css 的路径是不是跟我的一样-->
+    <!-- 不同框架引入百度 ueditor 编辑器，解析后 iframe.css 的路径可能不一样-->
+    <link rel='stylesheet' type='text/css' href='/laravel-u-editor/themes/iframe.css'/>
+</head>
+<body class='view' ></body>
+<script type='text/javascript'  id='_initialScript'>
+    function getQueryVariable(variable)
+    {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+    }
+    var uid = getQueryVariable("uid")
+    setTimeout(function(){
+        editor = window.parent.UE.instants['ueditorInstant'+uid];
+        editor._setup(document);
+        },0);
+    var _tmpScript = document.getElementById('_initialScript');
+    _tmpScript.parentNode.removeChild(_tmpScript);
+</script>
+</html>
