@@ -46,7 +46,7 @@ return [
             'debug' => false//<true|false>
         ],
         'storage' => [
-            'folder' => 'files',//注意不要加'/'
+            'folder' => 'public/files',//注意不要加'/'
             'classifyByFileType' => false,//是否根据文件类型拆分到子文件夹
 
         ],
