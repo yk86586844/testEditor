@@ -11,6 +11,8 @@ UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
 
 支持本地和七牛云存储,默认为本地上传 public/uploads
 
+## ChangeLog
+  v1.4.6 修改Iframe 后台防盗链不显示图片的问题
 
 ## ChangeLog
   v1.4.5
